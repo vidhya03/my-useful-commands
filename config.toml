@@ -21,7 +21,7 @@ enableEmoji = true
   # LoveIt theme version
   version = "0.2.X"
   # site default theme ("light", "dark", "auto")  
-  defaultTheme = "dark"
+  defaultTheme = "light"
   
   # date format
   dateFormat = "02-January-2006"
@@ -44,10 +44,10 @@ enableEmoji = true
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = ""
+      logo = "/images/vidhya-gravatar.png"
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "Vidhya03 - Full stack engineer"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
@@ -153,7 +153,7 @@ enableEmoji = true
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/dillonzq/LoveIt"
+        url = "https://github.com/vidhya03/my-useful-commands"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -206,11 +206,11 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "it.vidhyadharan@gmail.com"
           # URL of avatar shown in home page
-          avatarURL = "/images/avatar.png"
+          avatarURL = "/images/vidhya-gravatar.png"
           # title shown in home page (HTML format is supported)
-          title = ""
+          title = "Vidhya03 - <i>Full stack engineer </i>"
           # subtitle shown in home page
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "You Become what you <b>Believe</b>"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
