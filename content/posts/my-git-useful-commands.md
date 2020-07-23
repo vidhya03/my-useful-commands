@@ -5,7 +5,7 @@ draft: false
 ---
 # My useful git commands
 
-Useful git commands
+Useful git commands :two_hearts:
 
 ## Table of contents
 
