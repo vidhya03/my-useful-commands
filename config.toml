@@ -53,7 +53,7 @@ enableEmoji = true
       pre = "👨‍💻"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-      post = "💕"
+      post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
       typeit = false
@@ -234,7 +234,7 @@ enableEmoji = true
           # URL of avatar shown in home page
           avatarURL = "/images/vidhya-gravatar.png"
           # title shown in home page (HTML format is supported)
-          title = "Vidhya03 - <i>Full stack engineer </i>"
+          title = "👨‍💻 Vidhya03 - <i>Full stack engineer </i>"
           # subtitle shown in home page
           subtitle = "You Become what you <b>Believe</b>"
           # whether to use typeit animation for subtitle
