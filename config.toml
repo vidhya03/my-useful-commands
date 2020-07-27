@@ -219,7 +219,7 @@ enableEmoji = true
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "dev_bloglabkit"
+          index = "vidhya03_labkit"
           appID = "1IKB98TIB2"
           searchKey = "86eac5214291b0c231d0014498e82ca1"
       # Home page config
