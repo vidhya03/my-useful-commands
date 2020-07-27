@@ -184,7 +184,7 @@ enableEmoji = true
         weight = 6
     [languages.en.params]
       # site description
-      description = "About LoveIt Theme"
+      description = "Vidhyadharan Deivamani - The vidhya03 blog and docs"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
