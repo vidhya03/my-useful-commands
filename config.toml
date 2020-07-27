@@ -1,9 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "https://vidhya03.labkit.in/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
 title = "Vidhya's blog"
+
+homepage = "https://vidhya03.labkit.in"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
