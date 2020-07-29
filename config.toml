@@ -252,15 +252,15 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "xxxx"
-        Linkedin = ""
-        Twitter = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
+        GitHub = "vidhya03"
+        Linkedin = "vidhyadharan"
+        Twitter = "VidhyaJava"
+        Instagram = ""
+        Facebook = ""
+        Telegram = ""
         Medium = ""
         Gitlab = ""
-        Youtubelegacy = "xxxx"
+        Youtubelegacy = ""
         Youtubecustom = ""
         Youtubechannel = ""
         Tumblr = ""
@@ -313,11 +313,9 @@ enableEmoji = true
         XMPP = ""
         Matrix = ""
         Bilibili = ""
-        Email = "xxxx@xxxx.com"
+        Email = "it.vidhyadharan@gmail.com"
         RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+        
 
   
 # Markup related configuration in Hugo
@@ -357,7 +355,7 @@ enableEmoji = true
 
 # Options to make hugo output files
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON","Algolia"]
   # todo page = ["HTML", "MarkDown"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
