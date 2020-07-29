@@ -314,7 +314,7 @@ enableEmoji = true
         Matrix = ""
         Bilibili = ""
         Email = "it.vidhyadharan@gmail.com"
-        RSS = true
+        RSS = false
         
 
   
