@@ -4,9 +4,14 @@ date: 2020-08-03T01:11:15+05:30
 lastmod: 2020-03-06T21:29:01+08:00
 draft: false
 author: "Vidhya"
+description: "My git useful commands."
+
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
+
+toc:
+  auto: true  
 ---
 # My useful git commands
 
