@@ -301,7 +301,7 @@ git stash show --name-status -p stash@{3}
 Some times we  need to copy a particular commit into another branch.
 we can use cherry-pick
 
-    -x
+\-x  
     When recording the commit, append a line that says "(cherry picked from commit …​)" to the original commit message (e.g. backporting a fix to a maintenance branch for an older release from a development branch), adding this information can be useful.
 
 ```md
