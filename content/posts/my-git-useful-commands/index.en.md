@@ -224,6 +224,8 @@ git checkout -b branchname <sha1-of-commit or HEAD~3>
 
 ## How to reset the git password in windows
 
+Some times checkout works but failed to push, we might get authentication failed without user name password challenging, in that case we have to clear our local windows credentials
+
 In windows 10 you can find Windows Credentials at :
 
 #### Control Panel\User Accounts\Credential Manager
@@ -232,7 +234,7 @@ In windows 10 you can find Windows Credentials at :
 
 for your git server and then you can update password by clicking edit button.
 
-![Windows Credentials](resources/windows.credentials.png)
+![Windows Credentials](windows.credentials.png)
 
 ## How to reset a git branch
 
