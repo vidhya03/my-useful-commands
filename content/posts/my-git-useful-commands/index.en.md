@@ -13,8 +13,6 @@ resources:
 toc:
   auto: true  
 ---
-# My useful git commands
-
 Useful git commands :two_hearts:
 
 ## Table of contents
