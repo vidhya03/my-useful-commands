@@ -6,6 +6,9 @@ draft: false
 author: "Vidhya"
 description: "My git useful commands."
 
+tags: ["commands", "git"]
+categories: ["git"]
+
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
