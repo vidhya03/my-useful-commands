@@ -323,9 +323,7 @@ or
 
 While working on submodules sometimes challenging , I initially add submoudles to different path and changed. While working on feature branch which is originally forked from initial submoudles. After merging in to develop branch showed bellow error
 
-```
-fatal: No url found for submodule path 'gradle' in .gitmodules
-```
+**fatal: No url found for submodule path 'gradle' in .gitmodules**
 
 Execute the below command to check the index
 
@@ -335,13 +333,13 @@ git ls-files --stage | grep 160000
 
 this give the output
 
-```
-160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       gradle
-160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       sci-bas-root/gradle
-```
+
+>160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       gradle
+>160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       sci-bas-root/gradle
+
 Then later I deleted the problamatic submoules, in this case gradle
 
-$git rm --cached <path-to-submodule>
+$git rm --cached  **path-to-submodule**
 
 Hence  i executed this command
 
