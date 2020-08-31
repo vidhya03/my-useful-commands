@@ -39,6 +39,7 @@ Useful git commands :two_hearts:
 - [How to git stash specific files under a path](#Git-stash-specific-files-under-a-path)
 - [How to revert merge commit](#how-to-revert-merge-commit)
 - [How to pick a commit from one branch to another using cherry-pick](#how-to-pick-a-commit-from-one-branch-to-another-using-cherry-pick)
+- [How to fix or solve No url found for submodule path in .gitmodules](#how-to-fix-or-solve-no-url-found-for-submodule-path-in-gitmodules)
 
 
 ## How to see my last commit
@@ -316,4 +317,35 @@ git cherry-pick <commit hash> or git cherry-pick 3a756d18a21
 or
  git cherry-pick -x 3a756d18a21
 
+```
+
+## How to fix or solve No url found for submodule path in .gitmodules
+
+While working on submodules sometimes challenging , I initially add submoudles to different path and changed. While working on feature branch which is originally forked from initial submoudles. After merging in to develop branch showed bellow error
+
+```
+fatal: No url found for submodule path 'gradle' in .gitmodules
+```
+
+Execute the below command to check the index
+
+```md
+git ls-files --stage | grep 160000
+```
+
+this give the output
+
+```
+160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       gradle
+160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       sci-bas-root/gradle
+```
+Then later I deleted the problamatic submoules, in this case gradle
+
+$git rm --cached <path-to-submodule>
+
+Hence  i executed this command
+
+```md
+git rm --cached gradle
+git push
 ```
