@@ -331,13 +331,13 @@ Execute the below command to check the index
 git ls-files --stage | grep 160000
 ```
 
-this give the output
+In my case this gives the output
 
 
->160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       gradle
->160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf 0       sci-bas-root/gradle
+>160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf &nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp;&nbsp;&nbsp; gradle<br/> 
+>160000 c33757f1ac59f1728cca17f6a1d999704fcbcaaf &nbsp;&nbsp;&nbsp;&nbsp; 0 &nbsp;&nbsp;&nbsp;&nbsp; sci-bas-root/gradle
 
-Then later I deleted the problamatic submoules, in this case gradle
+Then later I deleted the problamatic submodules, in this case gradle
 
 $git rm --cached  **path-to-submodule**
 
