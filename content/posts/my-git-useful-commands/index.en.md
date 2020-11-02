@@ -40,6 +40,8 @@ Useful git commands :two_hearts:
 - [How to revert merge commit](#how-to-revert-merge-commit)
 - [How to pick a commit from one branch to another using cherry-pick](#how-to-pick-a-commit-from-one-branch-to-another-using-cherry-pick)
 - [How to fix or solve No url found for submodule path in .gitmodules](#how-to-fix-or-solve-no-url-found-for-submodule-path-in-gitmodules)
+- [How to pass custom ssh private key filename](#how-to-pass-custom-ssh-private-key-filename)
+
 
 
 ## How to see my last commit
@@ -346,4 +348,12 @@ Hence  i executed this command
 ```md
 git rm --cached gradle
 git push
+```
+
+## How to pass custom ssh private key filename
+
+When cloning and working on multiple repository from different accounts, maintaing the separate ssh file is apt way. The below will show you how to pass private key while cloning and override the default file id_rsa
+
+```md
+ git clone git@github.com:vidhya03/my-useful-commands.git --config core.sshCommand="ssh -i /v/vidhya03-github_rsa"
 ```
