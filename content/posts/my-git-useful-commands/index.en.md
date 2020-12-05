@@ -357,3 +357,19 @@ When cloning and working on multiple repository from different accounts, maintai
 ```md
  git clone git@github.com:vidhya03/my-useful-commands.git --config core.sshCommand="ssh -i /v/vidhya03-github_rsa"
 ```
+or edit the .git/config file in the root directory and add the command sshcommand = ssh -i /v/tools/putty/keys/vidhya03-github_rsa under [core] 	
+
+```md
+[core]
+	sshcommand = ssh -i /v/tools/putty/keys/vidhya03-github_rsa
+```
+
+## How to mirror a git repository
+
+Sometimes we wanted to move one repository to another repository 
+
+	git clone --mirror http://repo/myrepo.git
+	cd myrepo.git/
+	git remote set-url --push origin https://github.com/myorg/myrepo.git
+	git fetch -p origin
+	git push –mirror
