@@ -355,7 +355,7 @@ git push
 When cloning and working on multiple repository from different accounts, maintaing the separate ssh file is apt way. The below will show you how to pass private key while cloning and override the default file id_rsa
 
 ```md
- git clone git@github.com:vidhya03/my-useful-commands.git --config core.sshCommand="ssh -i /v/vidhya03-github_rsa"
+ git clone git@github.com:vidhya03/my-useful-commands.git --config core.sshCommand="ssh -i /v/tools/putty/keys/vidhya03-github_rsa"
 ```
 or edit the .git/config file in the root directory and add the command sshcommand = ssh -i /v/tools/putty/keys/vidhya03-github_rsa under [core] 	
 
