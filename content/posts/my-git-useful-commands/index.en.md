@@ -374,4 +374,4 @@ Sometimes we wanted to move one repository to another repository
 	git fetch -p origin
 	git push –mirror
 
-  Try  <a href="https://www.softwareag.cloud/" >![image](https://user-images.githubusercontent.com/534679/120312502-6b20ff00-c2f6-11eb-8414-fb6a5676eee0.png)</a>
+  Try  <a href="https://www.softwareag.cloud/site/product/webmethods-api.html#/?utm_source=labkit" >![image](https://user-images.githubusercontent.com/534679/120312502-6b20ff00-c2f6-11eb-8414-fb6a5676eee0.png)</a>
