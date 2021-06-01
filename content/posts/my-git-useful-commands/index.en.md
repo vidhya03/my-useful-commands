@@ -374,4 +374,7 @@ Sometimes we wanted to move one repository to another repository
 	git fetch -p origin
 	git push –mirror
 
-   Try ![image](https://user-images.githubusercontent.com/534679/120312502-6b20ff00-c2f6-11eb-8414-fb6a5676eee0.png)
+   Try ![image]()
+   [https://user-images.githubusercontent.com/534679/120312502-6b20ff00-c2f6-11eb-8414-fb6a5676eee0.png][softwareag]
+
+[softwareag]: https://github.com/showdownjs/showdown/releases
