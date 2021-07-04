@@ -21,6 +21,7 @@ Useful k8s commands 💡 :two_hearts:
 ## Table of contents
 
 - [How to create pods](#how-to-create-pods)
+- [How to view all objects in k8s](#how-to-view-all-objects-in-k8s)
 
 
 
@@ -37,4 +38,11 @@ This command will create a nginx pods
 
 ```md
 kubectl run nginx-pod --image nginx
+```
+
+## How to view all objects in k8s
+
+This command will list all the objects under the currect namespace
+```md
+kubectl get all
 ```
