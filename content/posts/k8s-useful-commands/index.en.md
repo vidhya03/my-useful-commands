@@ -22,7 +22,7 @@ Useful k8s commands 💡 :two_hearts:
 
 - [How to create pods](#how-to-create-pods)
 - [How to view all objects in k8s](#how-to-view-all-objects-in-k8s)
-
+- [How to find or count the number of k8s objects - namespace, pods, service](#how-to-find-or-count-the-number-of-k8s-objects-namespace-pods)
 
 
 
@@ -45,4 +45,11 @@ kubectl run nginx-pod --image nginx
 This command will list all the objects under the currect namespace
 ```md
 kubectl get all
+```
+
+## How to find or count the number of k8s objects namespace, pods
+
+To simplify the output we are using ```--no-headers``` attributes alone with the commands
+```sh
+kubectl get namespace --no-headers | wc -l
 ```
