@@ -23,5 +23,5 @@ This repository holds all the data related to this website https://vidhya03.labk
 Each time when adding in place hyperlink is tedious , hence i have created a simple tool to generate markdown hyperlink for inpage navigation
 
 ```md
-https://codepen.io/vidhya03/pen/WNjwGjM
+https://codepen.io/vidhya03/full/WNjwGjM
 ```
