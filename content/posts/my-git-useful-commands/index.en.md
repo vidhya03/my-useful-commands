@@ -41,6 +41,7 @@ Useful git commands :two_hearts:
 - [How to pick a commit from one branch to another using cherry-pick](#how-to-pick-a-commit-from-one-branch-to-another-using-cherry-pick)
 - [How to fix or solve No url found for submodule path in .gitmodules](#how-to-fix-or-solve-no-url-found-for-submodule-path-in-gitmodules)
 - [How to pass custom ssh private key filename](#how-to-pass-custom-ssh-private-key-filename)
+- [How to add new line in shell - git commit message](#how-to-add-new-line-in-shell---git-commit-message)
 
 
 
@@ -374,4 +375,20 @@ Sometimes we wanted to move one repository to another repository
 	git fetch -p origin
 	git push –mirror
 
+## How to add new line in shell - git commit message
+
+In Bash, you can use single quotes around the message and can just leave the quote open, which will make Bash prompt for another line, until you close the quote. Like this:
+
+```
+git commit -m ' 🐛 Fixed runtime issue
+
+When connecting an api with multiple calls , Commit message body goes here
+
+
+refer: footer label goes here
+'
+```
+
+
   Try  <a href="https://www.softwareag.cloud/site/product/webmethods-api.html#/?utm_source=labkit" >![image](https://user-images.githubusercontent.com/534679/120312502-6b20ff00-c2f6-11eb-8414-fb6a5676eee0.png)</a>
+
