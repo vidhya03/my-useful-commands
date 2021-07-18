@@ -23,7 +23,8 @@ Useful k8s commands 💡 :two_hearts:
 - [How to create pods](#how-to-create-pods)
 - [How to view all objects in k8s](#how-to-view-all-objects-in-k8s)
 - [How to find or count the number of k8s objects - namespace, pods, service](#how-to-find-or-count-the-number-of-k8s-objects---namespace-pods-service)
-
+- [How to delete or terminate the pod force](#how-to-delete-or-terminate-the-pod-force)
+- [Print lables of an object or pods](#print-lables-of-an-object-or-pods)
 
 
 ## How to create pods
@@ -53,3 +54,35 @@ To simplify the output we are using ```--no-headers``` attributes alone with the
 ```sh
 kubectl get namespace --no-headers | wc -l
 ```
+
+## How to delete or terminate the pod force
+
+Sometime we want to delete to pod without waiting time. The below command is useful to delete the pod without waiting time or delte / terminate the pod immediately
+
+```md
+k delete pod <pod-name> --force --grace-period 0
+```
+## Reading the documentation in commandline
+
+One of the easyway to copy the syntax without referring web documentation
+
+First search the command in the command line documentation
+
+```md
+kubectl explain pods --recursive | less
+```
+
+```md
+kubectl explain pods --recursive | grep -i envFrom -A 10 -B10
+```
+This will list the envFrom syntax spec , before and after 10 lines 
+
+
+## Print lables of an object or pods
+
+```md
+kubectl get pods --show-labels
+```
+
+
+
