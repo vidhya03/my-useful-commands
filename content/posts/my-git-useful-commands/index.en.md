@@ -196,6 +196,10 @@ Sometime working in opensource and closed source, you might commit closed source
 git commit --amend --author="vidhyadharan deivamani <it.vidhyadharan@gmail.com>" -m "commit description"
 ```
 
+```md
+git commit --amend --reset-author
+```
+
 ## How to rename the git branch
 
 To rename git local and remote branch
