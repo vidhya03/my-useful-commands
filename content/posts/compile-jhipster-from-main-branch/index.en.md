@@ -20,8 +20,14 @@ toc:
 💡  JHipster from main branch 👨‍💻  :two_hearts:
 
 ## Introduction
+ 
 
-Sometime upgrading the Jhipster modules takes time after the Jhipster officially released.
+ {{< admonition type=quote title="What is JHipster" open=false >}}
+JHipster is a development platform for building modern web applications, mobile apps, and microservices in Java and JavaScript. It provides a set of tools and workflows that make it easy to create applications using popular frameworks such as Spring Boot, Angular, React, and Vue.js. With JHipster, developers can quickly generate a full-stack application with a modern front-end, back-end, and database layer, along with user authentication, authorization, and security features. JHipster also includes built-in support for continuous integration and deployment, making it easy to deploy applications to the cloud. Overall, JHipster aims to simplify the process of building high-quality, scalable, and maintainable applications, while leveraging the best practices and technologies in the industry.
+{{< /admonition >}}
+
+
+Sometime upgrading the [Jhipster](https://www.jhipster.tech/) modules takes time after the Jhipster officially released.
 
 However in this post, I'd like to show you how to clone Jhipster's GitHub repo. So you can use the latest code and try out the latest features, maybe try out a bug fix, maybe try out springboot (latest)  and basically use the latest stuff.
 
