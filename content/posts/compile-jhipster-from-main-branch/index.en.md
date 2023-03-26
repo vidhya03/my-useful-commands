@@ -11,7 +11,7 @@ categories: ["java"]
 
 resources:
 - name: "featured-image"
-  src: "jhipster-module-header.png"
+  src: "jhipster-2.jpg"
 
 toc:
   auto: true  
