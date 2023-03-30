@@ -1,7 +1,7 @@
 
 ---
 title: "Using HAR Files to Improve Webapps Performance"
-date: 2023-04-039T01:11:15+05:30
+date: 2023-04-01T10:00:00+05:30
 lastmod: 2023-04-03T21:29:01+08:00
 draft: false
 author: "Vidhya"
