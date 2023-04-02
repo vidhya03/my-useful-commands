@@ -21,13 +21,13 @@ toc:
 
 ## Introduction:
 
-As a 🌐 website owner, ensuring a seamless user experience is vital for the success of your business. 
+As a 🌐 website owner, ensuring a seamless user experience is vital for the success of your business.
 
-However, despite your best efforts, you may receive feedback from users about slow 📈 page load times or other performance issues. 
+However, despite your best efforts, you may receive feedback from users about slow 📈 page load times or other performance issues.
 
-This is where ```HAR (HTTP Archive)``` 💎 files can be a valuable tool for developers. 
+This is where ```HAR (HTTP Archive)``` 💎 files can be a valuable tool for developers.
 
-In simple terms, a HAR file is a log 📄 of all the network ✅ requests and responses made by a web page . 
+In simple terms, a HAR file is a log 📄 of all the network ✅ requests and responses made by a web page .
 
 It provides detailed information such as ⌛ timings, HTTP headers, and content, which can help you 🧬 diagnose and optimize website performance issues .
 
@@ -77,6 +77,21 @@ To generate a HAR file, you need to use your browser's developer tools. Here are
 * **`Check response codes`**: Look for requests with HTTP response codes of 4xx or 5xx, as these indicate errors on the server-side. Identify the specific requests that are returning errors and take steps to fix them.
 
 * **`Analyze headers`**: Analyze the headers for each request to ensure that appropriate caching headers are set. Caching can significantly improve website performance by reducing the number of HTTP requests and the time required to download assets.
+
+{{< admonition type=quote title="🕵️ Security tips" open=false >}}
+
+  1. <span style="color:blue"> ```🛡️ Remove sensitive information:``` Always remove passwords, API keys, and other sensitive information from the HAR file before sharing it. Edit the file in a JSON editor or a text editor like Notepad++.
+  </span>
+
+  2. ```🔐 Encrypt the file:``` If you need to share the HAR file over an unsecured network or through email, consider encrypting it with a password to prevent unauthorized access.
+
+  3. <span style="color:blue">```👨‍💻 Limit access:``` Share the HAR file only with individuals who have a legitimate need to access it. This will help prevent accidental or intentional disclosure of sensitive information.</span>
+
+  4. ```🔛 Use secure transfer methods:``` When sharing the HAR file, use secure transfer methods such as SFTP or HTTPS. Avoid using unencrypted transfer methods such as FTP or HTTP.
+
+  5. <span style="color:blue">```🗑️ Delete the file:``` Once the HAR file has served its purpose, delete it to prevent unauthorized access or accidental disclosure of sensitive information.</span>
+
+{{< /admonition >}}
 
 ## Conclusion:
 
