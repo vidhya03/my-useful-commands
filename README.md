@@ -15,7 +15,7 @@ This repository holds all the data related to this website https://vidhya03.labk
 ```
 3. Start the project
 ```sh
-    hugo server
+    hugo server --poll 100ms
 ```
 
 ## Custom tool 

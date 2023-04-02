@@ -1,15 +1,15 @@
 
 ---
 title: "Using HAR Files to Improve Webapps Performance"
-date: 2023-03-31T10:55:00+05:30
-lastmod: 2023-04-03T21:29:01+08:00
+date: 2023-04-01T10:55:00+05:30
+lastmod: 2023-04-01T10:55:00+05:30
 draft: false
 author: "Vidhya"
 description: "How to create HAR file - Performance / debug webpapps"
 
 tags: ["webapps", "tools"]
-categories: ["web"]
-
+categories: ["web","tools"]
+  
 resources:
 - name: "featured-image"
   src: "har-feature.jpg"
