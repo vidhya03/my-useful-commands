@@ -1,4 +1,3 @@
-
 ---
 title: "Using HAR Files to Improve Webapps Performance"
 date: 2023-04-01T10:55:00+05:30
