@@ -49,18 +49,49 @@ So, if you're ready to improve your development process and avoid the headaches 
 
 ## Requirements
 
-1. 🖥️ **Visual Studio Code editor:** DevContainers is a feature in the Visual Studio Code editor, so you'll need to have it installed on your machine.
+1. 🖥️ **Visual Studio Code editor:** DevContainers is a feature in the Visual Studio Code editor, so you'll need to have it installed on your machine. with VS code devcontainer extensions https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
 2. 🐳 **Docker:** DevContainers uses Docker to create and manage the development environment in a container. You'll need to have Docker installed on your machine and running. 
   I would suggest Rancher desktop ![Rancher desktop](rancher.png) , as it is enterprise free, where as docker destop ![Docker desktop](docker.png)  is licensed for enterprise. Personally I use rancher. 
 
-3. 🛠️ **DevContainer specifications:** To define the configuration for the development environment, you'll need to create a DevContainer specification file (either "devcontainer.json" or "devcontainer.yml") in your project's code repository.
 
 4. 🔍 **Code repository:** DevContainers are typically used within a code repository. You'll need to have your code repository set up with the DevContainer specification file included in the project.
 
 By meeting these basic requirements, you'll be able to set up a development environment using DevContainers in Visual Studio Code.
 
-## How to do 
+## How to run this blog with single click
+
+ 🛠️ **DevContainer specifications:** To define the configuration for the development environment, you'll need to create a DevContainer specification file (either "devcontainer.json" or "devcontainer.yml") in your project's code repository.
+
+ 1. Checkout the  blog repository
+
+   ```
+    git clone https://github.com/vidhya03/my-useful-commands.git
+   ```
+ > Refer the pre-configured dev-container specifications. 
+ >    https://github.com/vidhya03/my-useful-commands/blob/master/.devcontainer/devcontainer.json
+ >     
+ >   ```json
+ >    {
+>	"name": "Hugo (Community)",
+>	"build": {
+>		"dockerfile": "Dockerfile",
+ >   .
+ >   .
+ >   .
+ >   .
+>
+ >   ```
+ >   `build.dockerfile` - The [Dockerfile](https://github.com/vidhya03/my-useful-commands/blob/master/.devcontainer/Dockerfile) location, which defines >the container contents, is specified relative to the devcontainer.json file path.
+
+ 3. Start the docker - in my case rancher desktop
+ 4. Start VS Code
+ 5. Run the `Dev Containers: Open Folder in Container...` command
+
+   - Press `F1` and type >dev containers: and choose Open folder in container...
+     ![devcontainer open](devcontainers-palette.png) 
+   - First time the container takes 30 to 1 mins. And subsecquent it will be blazing fast
+   - 
 
 
 
