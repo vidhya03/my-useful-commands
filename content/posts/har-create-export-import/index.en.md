@@ -98,6 +98,3 @@ To generate a HAR file, you need to use your browser's developer tools. Here are
 In summary, HAR files are a powerful tool for optimizing website performance. 
 By generating and analyzing them, developers can identify and fix issues, resulting in faster page load times and improved user experience. 
 Use HAR files to ensure your website performs at its best.
-
-
-
