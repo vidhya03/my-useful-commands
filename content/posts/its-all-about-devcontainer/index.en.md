@@ -68,6 +68,8 @@ By meeting these basic requirements, you'll be able to set up a development envi
    ```
     git clone https://github.com/vidhya03/my-useful-commands.git
    ```
+
+  {{< admonition type=quote title="dev-container specifications" open=false >}}
  > Refer the pre-configured dev-container specifications. 
  >    https://github.com/vidhya03/my-useful-commands/blob/master/.devcontainer/devcontainer.json
  >     
@@ -83,15 +85,25 @@ By meeting these basic requirements, you'll be able to set up a development envi
 >
  >   ```
  >   `build.dockerfile` - The [Dockerfile](https://github.com/vidhya03/my-useful-commands/blob/master/.devcontainer/Dockerfile) location, which defines >the container contents, is specified relative to the devcontainer.json file path.
+ {{< /admonition >}}
 
- 3. Start the docker - in my case rancher desktop
- 4. Start VS Code
- 5. Run the `Dev Containers: Open Folder in Container...` command
+ 2. Start the docker - in my case rancher desktop
+ 3. Start VS Code
+ 4. Run the `Dev Containers: Open Folder in Container...` command
 
    - Press `F1` and type >dev containers: and choose Open folder in container...
      ![devcontainer open](devcontainers-palette.png) 
-   - First time the container takes 30 to 1 mins. And subsecquent it will be blazing fast
-   - 
+   - First time the container takes 30seconds to 1 min or depends upon the dependency. And subsecquent  it will be blazing fast
+   - After you have started the container and established a connection, you can verify that the remote context has been updated by checking the bottom left of the Status bar.
+ 5. To start the blog, run the command ```hugo serve``` command in devcontainer terminal
+
+   ![devcontainer status](devcontainers-loaded.png) 
+
+  
+
+
+
+>In the next blog i will explain you complex set-up , docker in kubernetes and advanced dev environment configurations. 
 
 
 
