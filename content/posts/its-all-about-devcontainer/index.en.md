@@ -37,13 +37,8 @@ So, if you're ready to improve your development process and avoid the headaches 
 
 🐳 DevContainers is a feature in the Visual Studio Code editor that allows developers to create consistent and isolated development environments using containers.
 
-🛠️ With DevContainers, developers can define a set of tools, runtime environments, and configurations in a Docker container that can be used to build and test their code.
+🚀👨‍💻 DevContainers can simplify the process of setting up a development environment, improve consistency across different environments, and facilitate collaboration with other developers.  making it easier for teams to standardize their development processes.
 
-🚀 DevContainers can provide several benefits, such as reducing the time and effort required to set up a development environment, improving consistency across different environments, and simplifying collaboration with other developers.
-
-🌎 DevContainers can be configured to support a variety of programming languages, frameworks, and tools, making it a versatile tool for developers.
-
-👨‍💻 DevContainers can also be version-controlled and shared, making it easier for teams to standardize their development processes and ensure that everyone is working in the same environment.
 {{< /admonition >}}
 
 
@@ -69,8 +64,8 @@ By meeting these basic requirements, you'll be able to set up a development envi
     git clone https://github.com/vidhya03/my-useful-commands.git
    ```
 
-  {{< admonition type=quote title="dev-container specifications" open=false >}}
- > Refer the pre-configured dev-container specifications. 
+  {{< admonition type=quote title="Devcontainer specifications" open=false >}}
+ > Refer the pre-configured devcontainer specifications. 
  >    https://github.com/vidhya03/my-useful-commands/blob/master/.devcontainer/devcontainer.json
  >     
  >   ```json
