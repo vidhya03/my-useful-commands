@@ -1,8 +1,8 @@
 
 ---
 title: "Instantly Set Up Your Development Environment with DevContainer's One-Click Setup"
-date: 2023-04-10T01:11:15+05:30
-lastmod: 2023-04-10T01:29:01+08:00
+date: 2023-04-15T01:11:15+05:30
+lastmod: 2023-04-15T01:29:01+08:00
 draft: false
 author: "Vidhya"
 description: ""
@@ -44,7 +44,7 @@ So, if you're ready to improve your development process and avoid the headaches 
 
 ## Requirements
 
-1. 🖥️ **Visual Studio Code editor:** DevContainers is a feature in the Visual Studio Code editor, so you'll need to have it installed on your machine. with VS code devcontainer extensions https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+1. 🖥️ **Visual Studio Code editor:** DevContainers is a feature in the Visual Studio Code editor, so you'll need to have it installed on your machine. with `VScode devcontainer extensions` https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
 2. 🐳 **Docker:** DevContainers uses Docker to create and manage the development environment in a container. You'll need to have Docker installed on your machine and running. 
   I would suggest Rancher desktop ![Rancher desktop](rancher.png) , as it is enterprise free, where as docker destop ![Docker desktop](docker.png)  is licensed for enterprise. Personally I use rancher. 
@@ -84,21 +84,23 @@ By meeting these basic requirements, you'll be able to set up a development envi
 
  2. Start the docker - in my case rancher desktop
  3. Start VS Code
- 4. Run the `Dev Containers: Open Folder in Container...` command
+ 4. Open the project and Run the `Dev Containers: Open Folder in Container...` command
 
    - Press `F1` and type >dev containers: and choose Open folder in container...
      ![devcontainer open](devcontainers-palette.png) 
    - First time the container takes 30seconds to 1 min or depends upon the dependency. And subsecquent  it will be blazing fast
    - After you have started the container and established a connection, you can verify that the remote context has been updated by checking the bottom left of the Status bar.
+   ![devcontainer status](devcontainers-loaded.png) 
+
  5. To start the blog, run the command ```hugo serve``` command in devcontainer terminal
 
-   ![devcontainer status](devcontainers-loaded.png) 
+   
 
   
 
 
 
->In the next blog i will explain you complex set-up , docker in kubernetes and advanced dev environment configurations. 
+>In my upcoming blog post, I will cover complex configurations involving Docker in Kubernetes and advanced development environment setups comprehensively.
 
 
 
@@ -108,6 +110,7 @@ By meeting these basic requirements, you'll be able to set up a development envi
  https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 2. Reference Specification - Dev Container metadata reference
  https://containers.dev/implementors/json_reference/
+3. https://github.com/vidhya03/my-useful-commands 
 
 
 
