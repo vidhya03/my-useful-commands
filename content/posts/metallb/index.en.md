@@ -19,7 +19,8 @@ toc:
 
 
 ## Introduction
-- MetalLB is an open-source load balancer for Kubernetes on bare metal hardware. 
+- MetalLB is an  <a href="https://github.com/metallb/metallb"> <i class="fab fa-github fa-fw"></i> </a>
+  open-source load balancer for Kubernetes on bare metal hardware. 
 - It solves the problem of load balancing in bare metal environments, where it's not natively available, leading to scalability and high availability limitations. 
 - MetalLB supports layer 2 and layer 3 modes and can be customized to work with specific network topologies. 
 - It's a reliable and scalable choice for organizations running Kubernetes on bare metal hardware. 
@@ -28,8 +29,8 @@ toc:
 ## Why - MetalLB
 
  - Kubernetes lacks a native implementation of network load-balancers (Services of type LoadBalancer) for bare metal clusters.
- - The built-in Network LB implementations in Kubernetes are designed to work with IaaS platforms like `GCP, AWS, and Azure`.
- - When attempting to create Load Balancers in a bare metal environment using the built-in Network LB implementations, they will remain in a "pending" state indefinitely.
+ - The built-in Network LB implementations in Kubernetes are designed to work with IaaS platforms like **GCP, AWS, and Azure**.
+ - When attempting to create Load Balancers in a bare metal environment using the built-in Network LB implementations, they will remain in a **pending** state indefinitely.
  - This limitation can lead to scalability and high availability issues for organizations running Kubernetes on bare metal hardware.
 
 ## Prerequisites
