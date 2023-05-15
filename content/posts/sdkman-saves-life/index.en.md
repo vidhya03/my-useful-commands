@@ -133,3 +133,4 @@ SDKMAN simplifies setting a default SDK version for each candidate, applying it 
  - Embracing **SDKMAN** unlocks convenience, automation, and customization in SDK management.
  - With streamlined installation, effortless version switching, and the power to set default SDK versions, **SDKMAN** empowers developers to write high-quality code.
  - Discover **SDKMAN** and embark on a journey of increased productivity, seamless SDK management, and accelerated development outcomes.
+
