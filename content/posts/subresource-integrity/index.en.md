@@ -92,7 +92,7 @@ When subresource integrity (SRI) is implemented and the integrity of a script fi
 - 🚀 **Incorporation into Practices**: Including SRI in web development practices ensures protection and trustworthiness in today's digital landscape.
 
 {{< admonition type=tip  open=true >}}
-  Personally I use `gitbash` tool to generate `hash`. 
+  Personally I generate `hash` with the help of  `gitbash` tool and `openssh`. 
 {{< /admonition >}}
 
 
