@@ -1,8 +1,8 @@
 ---
 title: "Eliminating Repetitive Version Changes in Multiple Repositories:
 Automating Efficiency and Saving Time"
-date: 2023-06-23T01:11:15+05:30
-lastmod: 2023-06-23T01:11:15+05:30
+date: 2023-06-26T01:11:15+05:30
+lastmod: 2023-06-26T01:11:15+05:30
 draft: false
 author: "Vidhya"
 description: "Eliminating Repetitive Version Changes in Multiple Repositories:
@@ -22,13 +22,9 @@ toc:
 ## Introduction:
 In the fast-paced world of software development, staying up-to-date with version changes is crucial. However, repetitive tasks like manually updating version properties across multiple repositories can be time-consuming and prone to errors. In this blog post, we'll explore a real-life example inspired by **James Surowiecki's** concept of `"addition by subtraction"` and discuss how automating version changes not only solves a common problem but also saves valuable time.
 
-# The Challenge of Manual Version Changes
+# The Challenge of Manual Version Changes - The Friction Point:
 
-Imagine a scenario where a software development team is responsible for maintaining seven different repositories for their projects. With each release, the team must manually update the version property in each repository, commit the changes, and raise a pull request. This laborious process not only consumes a significant amount of time but also introduces the risk of inconsistencies and human errors in versioning.
-
-## The Friction Point:
-Imagine a scenario where a software development team maintains different repositories for their projects. With each release, the team is required to manually update the version property in each repository, commit the changes, and raise a pull request. This process is not only tedious but also carries the risk of human error, potentially leading to inconsistent versioning across repositories.
-
+Imagine a scenario where a software development team is responsible for maintaining different repositories for their projects. With each release, the team must manually update the version property in each repository, commit the changes, and raise a pull request. This laborious process not only consumes a significant amount of time but also introduces the risk of inconsistencies and human errors in versioning.
 
 ## Drawing Inspiration from Lean Production:
 **James Surowiecki's** observations about lean production in Japanese factories provide valuable insights into streamlining processes and eliminating waste. The Japanese companies identified points of friction in their manufacturing process and eliminated them, resulting in improved efficiency and product reliability. We can apply a similar approach to our version change problem by seeking to automate the process and eliminate repetitive effort.
@@ -58,7 +54,7 @@ The script performs the following steps:
 
 7. Print the full path of the microservice directory using the `dir_root_path` and `dir_name` variables.
 
-8. Clone the microservice repository from the provided `clone_url` using the `git clone` command. The `core.sshCommand` option is set to specify the SSH key to use for authentication.
+8. Clone the microservice repository from the provided `clone_url` using the `git clone` command. The `core.sshCommand` option is set to specify the SSH key to use for authentication(here i used sshkey without password - this file can be passed securely).
 
 9. Change the current working directory to the cloned repository.
 
@@ -87,7 +83,7 @@ The script performs the following steps:
 
 
 ## The Impact of Automation:
-By implementing this automation, the development team experienced a significant reduction in the time and effort required for version changes. Previously, manually updating the version in each repository could take up to an hour per release. With the automated solution, the entire process was streamlined, saving them valuable time that could be better utilized for more critical tasks. Furthermore, the script served as a scalable solution, capable of accommodating additional repositories or adapting to changing project requirements.
+By implementing this automation, the development team experienced a significant reduction in the time and effort required for version changes. Previously, manually updating the version in each repository could take up to an hour per release. With the automated solution, the entire process was streamlined, saving them valuable time that could be better utilized for more critical tasks. Furthermore, the script served as a `scalable solution`, capable of accommodating additional repositories or adapting to changing project requirements.
 
 
 ## Embracing the Philosophy of "Addition by Subtraction":
@@ -100,7 +96,7 @@ Automating version changes in multiple repositories is a game-changer for softwa
 Automate your version changes and witness the transformation in your development process. Say goodbye to the tedious and error-prone manual updates, and embrace the power of automation for efficiency and time savings in your software development journey.
 
 {{< admonition type=tip  open=true >}}
-  Personally I use various codeline automation scripts. 
+  Personally I use various codeline automation scripts. For label creation, branch out to release branch, auto labeling. These are inspired from microsoft vscode PR bot.  
 {{< /admonition >}}
 
 
