@@ -6,6 +6,6 @@ TZ = "Asia/Kolkata"
 
 [build]
 publish = "public"
-command = """\  
-  hugo --minify --baseURL $DEPLOY_PRIME_URL/
+command = """\
+   hugo --minify --baseURL $DEPLOY_PRIME_URL/
   """
