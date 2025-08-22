@@ -10,6 +10,10 @@ homepage = "https://vidhya03.labkit.in"
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
+# Pagination configuration
+[pagination]
+pagerSize = 12
+
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
@@ -126,7 +130,8 @@ enableEmoji = true
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
-    paginate = 12
+    [languages.en.pagination]
+      pagerSize = 12
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
@@ -241,7 +246,8 @@ enableEmoji = true
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          [languages.en.params.home.posts.pagination]
+            pagerSize = 6
       # Social config in home page
       [languages.en.params.social]
         GitHub = "vidhya03"
@@ -352,7 +358,6 @@ enableEmoji = true
   page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
