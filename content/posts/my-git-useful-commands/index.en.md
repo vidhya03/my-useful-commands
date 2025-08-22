@@ -40,6 +40,7 @@ Useful git commands :two_hearts:
 - [How to revert merge commit](#how-to-revert-merge-commit)
 - [How to pick a commit from one branch to another using cherry-pick](#how-to-pick-a-commit-from-one-branch-to-another-using-cherry-pick)
 - [How to fix or solve No url found for submodule path in .gitmodules](#how-to-fix-or-solve-no-url-found-for-submodule-path-in-gitmodules)
+- [How to fix the submodule for branch change](#how-to-fix-the-submodule-for-branch-change)
 - [How to pass custom ssh private key filename](#how-to-pass-custom-ssh-private-key-filename)
 - [How to add new line in shell - git commit message](#how-to-add-new-line-in-shell---git-commit-message)
 
@@ -354,6 +355,24 @@ Hence  i executed this command
 git rm --cached gradle
 git push
 ```
+
+## How to fix the submodule for branch change
+
+If you need to update a submodule to track a different branch (for example, switching to a release branch), follow these steps. Here, `common/hybrid-ipaas-mcsp-spring-boot-starter` is the path where the submodule is placed:
+
+```sh
+git submodule set-branch --branch release/11.2.3.0 common/hybrid-ipaas-mcsp-spring-boot-starter
+git submodule update --remote
+git add .gitmodules common/hybrid-ipaas-mcsp-spring-boot-starter
+git commit -m "Update submodule to release/11.2.3.0"
+```
+
+- The first command sets the submodule to track the specified branch.
+- The second command updates the submodule to the latest commit on that branch.
+- The third command stages the changes to the submodule and `.gitmodules` file.
+- The last command commits the update.
+
+
 
 ## How to pass custom ssh private key filename
 
