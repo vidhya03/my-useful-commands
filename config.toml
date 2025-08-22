@@ -19,6 +19,10 @@ enableGitInfo = true
 
 enableEmoji = true
 
+# Pagination configuration
+[pagination]
+  pagerSize = 12
+
 [params]
   # LoveIt theme version
   version = "0.2.X"
@@ -125,8 +129,6 @@ enableEmoji = true
     languageName = "English"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
-    # default amount of posts in each pages
-    paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
     googleAnalytics = ""
     # copyright description used only for seo schema
@@ -350,9 +352,8 @@ enableEmoji = true
   home = ["HTML", "RSS", "JSON","Algolia"]
   # todo page = ["HTML", "MarkDown"]
   page = ["HTML"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+  section = ["HTML", "RSS"]  
+  taxonomy = ["HTML"]
 [outputFormats.Algolia]
 baseName = "algolia"
 isPlainText = true
